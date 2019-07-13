@@ -6,7 +6,7 @@ describe('addNumbers', () => {
       expect(addNumbers(4, 5)).toEqual(9);
     });
     it('should throw an error if arguments are of invalid type', () => {
-      expect(addNumbers('prateek', 4)).toThrow('Invalid arguments');
+      expect(() => addNumbers('prateek', 4)).toThrow('Invalid arguments');
     });
   });
 
@@ -50,7 +50,10 @@ describe('addNumbers', () => {
       // Async await works on the concept of generators, it knows when to pause and complete
       it('should return 3 for 1 + 2', async () => {
         const sum = await pr(1, 2);
-        expect(sum).toEqual(9); //Deliberately breaking the test here
+        // expect(sum).toEqual(9); //Deliberately breaking the test here
+        // Let us correct our errors so travis passes
+        // all our test cases
+        expect(sum).toEqual(3);
       });
 
       // Lets work on an error case also

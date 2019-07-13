@@ -9,8 +9,7 @@
   },
   "engineStrict": true,
   "scripts": {
-    "test": "jest --verbose",
-    "test:watch": "jest --watch",
+    "test:watch": "jest --watchAll",
     "start": "node src/index.js",
     "dev": "nodemon src/index.js"
   },

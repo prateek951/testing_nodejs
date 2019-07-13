@@ -1,8 +1,7 @@
 // Utility method to add the two numbers
 exports.addNumbers = (numberOne, numberTwo) => {
   if (typeof numberOne !== 'number' || typeof numberTwo !== 'number') {
-    const error = new Error('Invalid arguments');
-    throw error;
+    throw new Error('Invalid arguments');
   }
   return numberOne + numberTwo;
 };
