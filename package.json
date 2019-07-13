@@ -1,0 +1,34 @@
+{
+  "name": "testing_nodejs",
+  "version": "1.0.0",
+  "description": "Udemy Presentation and Slides for Node.js Testing using best practices.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.9",
+    "npm": ">=3.10.0"
+  },
+  "engineStrict": true,
+  "scripts": {
+    "test": "jest --watchAll",
+    "test:verbose": "jest --verbose",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prateek951/testing_nodejs.git"
+  },
+  "author": "Prateek Madaan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prateek951/testing_nodejs/issues"
+  },
+  "homepage": "https://github.com/prateek951/testing_nodejs#readme",
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.0",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1"
+  }
+}
