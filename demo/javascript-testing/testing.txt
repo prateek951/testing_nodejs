@@ -1,0 +1,78 @@
+Testing Basics 
+
+Testing of the code is very important 
+
+1. Confidence in your code is very important to have 
+and therefore if you can test your code and find bugs
+in it then you have thorough understanding of your code 
+and the pitfalls that can occur in the logic of your code
+
+2. It is a documentation for developers 
+Writing a test can also be treated as a documentation 
+of a code. After a few weeks not touching a certain 
+part of your codebase, and then returning to it it is  
+great to check out the tests and verify what the 
+expected outcome of specific code should actually be. 
+
+3. Refactoring gets easy 
+This means revisiting and updating some code. The reasons 
+for refactoring and updating can be many like leveraging 
+this shiny new function you just learned about, improving 
+the performance or you want to extend the behavior or 
+just simplifying code, that we wrote some time ago, actually 
+
+4. Become a better developer 
+Writing test for the code that we just wrote makes us better 
+developer. A test should be simple, no longer or even more 
+complex than the function it's supposed to test. In that case 
+the best way possible is to simplify the tested function, 
+maybe split up some code and so on. 
+
+5. Working in a team 
+
+Class Testing 
+Constructor seems like something that we really want to test 
+immediately but we do not care for the constructor to be tested 
+individually 
+It is called in every other single test we gonna use. 
+so we do not need to test for the instantiation of any 
+specific class by its constructor. 
+
+In the testing world there are some broadly used terms 
+to describe those pieces of code that you want to test. 
+Testing small pieces of code are known as unit tests.  
+Testing more complex flows are often called or referred 
+to as acceptance tests or end-to-end tests. And things 
+in between often fall in the category of integration 
+or functional tests. 
+
+While unit tests are meant to be the backbone of your 
+application testing. Acceptance tests often give a more 
+conclusive picture of the application as it usually 
+exercises the whole stack. 
+Keep in mind that unit tests are faster and acceptance 
+tests comes out to be slower 
+Acceptance tests are costly to run 
+A unit test exercises a small piece of code, they are  
+incredibly fast to run. 
+
+While 100 unit tests might take only a couple of seconds 
+100 acceptance tests can take up to several minutes. That 
+is the reason why we say Acceptance Tests are more costly. 
+
+Mocks are a common tool when writing tests. 
+
+Code that is pulled from outside any specific file is referred 
+to as a dependency.
+In the context of our tests, we do not care of how the  
+dependencies that we import work under the hood, we only 
+mock them we just care for it being called correctly 
+
+A stub is more of a replacement of a specific piece 
+
+
+
+
+
+
+
